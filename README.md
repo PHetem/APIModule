@@ -7,10 +7,11 @@ Simple application to help on the development of API's
 ## Setup ##
 
 To run:
+- Add require to your composer
 
+To use as an API framework:
 - Add ROOT_PATH constant to your configuration files with your project's root path as value;
 - Add a routing file "ROOT_PATH/config/routes.php";
-- Add require to your composer
 - Add .htaccess file along with your index with the following content:
 ```xml
 
@@ -19,11 +20,10 @@ To run:
         RewriteRule ^(.*)$ index.php?endpoint=/$1 [L,QSA]
     </IfModule>
 ```
-- Call
+- Call the following line on your index file
 ```php
     Bootstrap::handle();
 ```
-from your index file
 
 ## Routing ##
 
