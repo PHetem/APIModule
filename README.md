@@ -1,8 +1,11 @@
 # APIModule
 
-## Setup ##
+## Description #
 
 Simple application to help on the development of API's
+
+## Setup ##
+
 To run:
 
 - Add ROOT_PATH constant to your configuration files with your project's root path as value;
