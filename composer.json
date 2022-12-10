@@ -1,0 +1,11 @@
+
+
+{
+    "name": "mpf/apimodule",
+    "autoload": {
+        "psr-4": {
+            "APIModule\\":"classes/"
+        }
+    },
+    "version":"1.0"
+}
